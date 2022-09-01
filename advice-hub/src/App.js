@@ -1,10 +1,14 @@
-import { Button } from "@carbon/react"
+import { Button, Theme } from "@carbon/react"
 import React from "react"
 
 function App() {
   return (
     <div>
-      <Button size="2xl">Button</Button>
+      <Theme theme="white">
+        <Button size="2xl" kind="primary">
+          Button
+        </Button>
+      </Theme>
     </div>
   )
 }
